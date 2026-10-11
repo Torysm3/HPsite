@@ -28,9 +28,9 @@ h4 {
 #flex1{
     text-align: left;
     display: flex;
-    gap: 20px;
+    flex-wrap: wrap;
     flex: 2;
-    flex-direction: column;
+    flex-direction: row;
 
     
 
