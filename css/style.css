@@ -1,7 +1,7 @@
 body {
-    background-color: #73aee6;
+    background-color: #59105a;
     text-align: left;
-    color: #161207;
+    color: whitesmoke;
 
 
 }
@@ -58,4 +58,19 @@ a:visited {
         flex-direction: column;
         align-items: center;
     }
+}
+
+.images {
+    display: flex;
+    overflow-x: auto;
+    flex-shrink: 0;
+}
+
+.container-fluid {
+    border: 5px solid black;
+    background-color: goldenrod;
+}
+.row {
+    border: black;
+    background-color: lightseagreen;
 }
